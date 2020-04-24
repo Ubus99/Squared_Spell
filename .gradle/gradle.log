@@ -1,0 +1,125 @@
+:compileApiJava NO-SOURCE
+:processApiResources NO-SOURCE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:getVersionJson
+:extractUserDev UP-TO-DATE
+:extractNatives UP-TO-DATE
+:getAssetsIndex
+:getAssets
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:runClient
+[17:30:37] [main/INFO] [GradleStart]: Extra: []
+[17:30:38] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/sxlga/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:30:38] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:30:38] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:30:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:30:38] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:30:38] [main/INFO] [FML]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[17:30:38] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_241, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_241\jre
+[17:30:38] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:30:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:30:38] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[17:30:38] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[17:30:38] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:30:38] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:30:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:30:38] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:30:38] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:30:38] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:30:38] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[17:30:39] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[17:30:39] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:30:39] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:30:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:30:39] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[17:30:39] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[17:30:39] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:30:40] [main/INFO]: Setting user: Player447
+[17:30:41] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:30:42] [Client thread/INFO] [STDOUT]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 01.04.20 17:30
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 99629504 bytes (95 MB) / 208666624 bytes (199 MB) up to 1883242496 bytes (1796 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.7262' Renderer: 'Intel(R) UHD Graphics 630'
+[17:30:42] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[17:30:42] [Client thread/INFO] [FML]: MinecraftForge v10.13.4.1614 Initialized
+[17:30:42] [Client thread/INFO] [FML]: Replaced 183 ore recipies
+[17:30:42] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[17:30:43] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[17:30:43] [Client thread/INFO] [FML]: Searching C:\Users\sxlga\IdeaProjects\Forge-Raw\.minecraft\mods for mods
+[17:30:43] [Client thread/INFO] [FML]: Also searching C:\Users\sxlga\IdeaProjects\Forge-Raw\.minecraft\mods\1.7.10 for mods
+[17:30:48] [Client thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[17:30:48] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, examplemod] at CLIENT
+[17:30:48] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, examplemod] at SERVER
+[17:30:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[17:30:48] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[17:30:48] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[17:30:48] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:30:48] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[17:30:48] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:30:48] [Client thread/INFO] [FML]: Applying holder lookups
+[17:30:48] [Client thread/INFO] [FML]: Holder lookups applied
+[17:30:48] [Client thread/INFO] [FML]: Injecting itemstacks
+[17:30:48] [Client thread/INFO] [FML]: Itemstack injection complete
+[17:30:48] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:30:48] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[17:30:48] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[17:30:48] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:30:49] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[17:30:49] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:30:49] [Sound Library Loader/INFO]: Sound engine started
+[17:30:49] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[17:30:49] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[17:30:49] [Client thread/INFO] [STDOUT]: [com.example.examplemod.ExampleMod:init:18]: DIRT BLOCK >> tile.dirt
+[17:30:49] [Client thread/INFO] [FML]: Injecting itemstacks
+[17:30:49] [Client thread/INFO] [FML]: Itemstack injection complete
+[17:30:49] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[17:30:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[17:30:50] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:30:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:30:50] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:30:50] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[17:30:50] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[17:30:50] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:30:50] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:30:50] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[17:30:50] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[17:30:50] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:30:50] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[17:30:51] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:30:51] [Sound Library Loader/INFO]: Sound engine started
+[17:31:07] [Client thread/INFO]: Stopping!
+[17:31:07] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:31:07] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[17:31:08] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[17:31:08] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+
+BUILD SUCCESSFUL
+
+Total time: 49.911 secs

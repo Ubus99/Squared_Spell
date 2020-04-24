@@ -1,0 +1,209 @@
+GT_API: ======================
+GT_API: PreInit-Phase started!
+GT_API: Sorting Greg-API to the start of the Mod List for further processing.
+GT_API: PreInit-Phase finished!
+GT_API: =======================
+GT_API_POST: ======================
+GT_API_POST: PreInit-Phase started!
+GT_API_POST: Sorting Greg-API-Post to the end of the Mod List for further processing.
+GT_API_POST: PreInit-Phase finished!
+GT_API_POST: =======================
+GT_Mod: ======================
+GT_Mod: PreInit-Phase started!
+GT_Mod: Sorting GregTech to the end of the Mod List for further processing.
+GT_DL_Thread: Downloading Version Number of the latest Major Version.
+GT_Mod: Setting Configs
+GT_Mod: Saving Main Config
+GT_Mod: Register Other Stuff.
+GT_Mod: Register Fluids.
+GT_Mod: Register Tools.
+GT_Mod: Register Items.
+GT_Mod: Register PrefixBlocks.
+GT_Mod: Register GT Rock Types.
+GT_Mod: Register Blocks.
+GT_Mod: Register Woods.
+GT_Mod: Register Rails.
+GT_Mod: Register Ore Blocks.
+GT_Mod: Register own MultiTileEntity Stuff.
+GT_Mod: PreInit-Phase finished!
+GT_DL_Thread: Current Version = '609'; Recent Version = '﻿610'; Outdated = Yes
+GT_DL_Thread: Downloading Silver Supporter List.
+GT_Mod: =======================
+GT_API: ===================
+GT_DL_Thread: Success downloading Silver Supporter List!
+GT_DL_Thread: Downloading Gold Supporter List.
+GT_DL_Thread: Success downloading Gold Supporter List!
+GT_DL_Thread: Downloading News.
+GT_API: Init-Phase started!
+GT_API: Doing a lot of the OreDictionary work (populating HashMaps for enabling faster access to Data and parsing Stuff). This will take a while. Like a LOT of time.
+GT_API: If it seriously takes more than a hour then you definetly ran out of Memory or permgenspace, look at the other Logs to confirm it.
+GT_API: Finished a lot of the OreDictionary work.
+GT_API: Init-Phase finished!
+GT_API: ====================
+GT_API_POST: ===================
+GT_API_POST: Init-Phase started!
+GT_API: Initialize Wood Dictionary.
+GT_API_POST: Init-Phase finished!
+GT_API_POST: ====================
+GT_Mod: ===================
+GT_Mod: Init-Phase started!
+GT_Mod: Register MultiTileEntities.
+GT_Mod: Register Books.
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Punch_Cards'  -  Name: 'Punch Card Manual V0.0'  -  Author: 'Gregorius Techneticies'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Microwave'  -  Name: 'Microwave Oven Manual'  -  Author: 'Kitchen Industries'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Printer'  -  Name: 'Scanner & Printer Manual'  -  Author: 'GregTech Electrics'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Steam'  -  Name: 'Steam Manual'  -  Author: 'GregTech Thermodynamics'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Random'  -  Name: 'Manual with Random Information'  -  Author: 'Gregorius Techneticies'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Portal_TF'  -  Name: 'Benimatics Twilight Forest'  -  Author: 'Gregorius Techneticies'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Hunting_Creeper'  -  Name: 'Hunting Guide for Creepers'  -  Author: 'Alex Grylls, Survival Specialist'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Hunting_Skeleton'  -  Name: 'Hunting Guide for Skeletons'  -  Author: 'Alex Grylls, Survival Specialist'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Hunting_Zombie'  -  Name: 'Hunting Guide for Zombies'  -  Author: 'Alex Grylls, Survival Specialist'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Hunting_Spider'  -  Name: 'Hunting Guide for Spiders'  -  Author: 'Alex Grylls, Survival Specialist'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Hunting_End'  -  Name: 'Hunting Guide for the End'  -  Author: 'Alex Grylls, Survival Specialist'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Hunting_Blaze'  -  Name: 'Hunting Guide for Blazes and Ghasts'  -  Author: 'Alex Grylls, Survival Specialist'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Hunting_Witch'  -  Name: 'Hunting Guide for Witches'  -  Author: 'Alex Grylls, Survival Specialist'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Tools'  -  Name: 'Tool Index'  -  Author: 'GITF (Gregorius Industrial Tool Factory)'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Smeltery'  -  Name: 'Smelting Crucible Manual'  -  Author: 'GMWI (Gregorius Metal Working Industries)'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Alloys'  -  Name: 'Book of Alloys, Smeltery Edition (124)'  -  Author: 'GMWI (Gregorius Metal Working Industries)'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Elements'  -  Name: 'Book of Periods (92)'  -  Author: 'GCC (Gregorius Chemical Consortium)'
+NOTE: Added Book to Book List  -  Mapping: 'Manual_Extenders'  -  Name: 'Extenders & Filters'  -  Author: 'GAD (Gregorius Automation Distributions)'
+GT_Mod: Register Ore processing.
+GT_Mod: Scanning for certain kinds of compatible Machineblocks.
+GT_Mod: Adding Food Recipes to the Automatic Canning Machine. (also during the following Item Iteration)
+GT_Mod: Scanning ItemList.
+GT_Mod: Init-Phase finished!
+GT_Mod: ====================
+GT_API: =======================
+GT_API: PostInit-Phase started!
+GT_API: Doing a lot of more OreDictionary work (Registering Recipes). This will take a while. Like a LOT of time.
+GT_API: If it seriously takes more than a hour then you definetly ran out of Memory or permgenspace, look at the other Logs to confirm it.
+GT_API: Finished another batch of the OreDictionary work.
+GT_API: Dumping Material List for the Config Folder
+GT_API: PostInit-Phase finished!
+GT_API: ========================
+GT_API_POST: =======================
+GT_API_POST: PostInit-Phase started!
+GT_API_POST: Checking IC2 Recipe Lists.
+GT_API_POST: Registering things that are considered Flowers by Bumblebees.
+GT_API_POST: Registering other Mods Enchantments for Materials
+GT_API_POST: Doing Books for Shelves.
+GT_API_POST: Fixing Chemical Formula Tooltips of certain Elements
+GT_API_POST: PostInit-Phase finished!
+GT_API_POST: ========================
+GT_Mod: =======================
+GT_Mod: PostInit-Phase started!
+GT_Mod: Increasing general amount of Loot in Dungeon Chests and alike
+GT_Mod: Nerfing Vanilla Tool Durability
+GT_Mod: Adding Tool Usage Crafting Recipes for OreDict Items.
+GT_Mod: Initializing various Fuels.
+GT_Mod: Making sure GT6 Chests are used in Worldgen instead of vanilla ones.
+GT_Mod: Adding worldgenerated Chest Content.
+GT_Mod: Doing Extruder Recipes
+GT_Mod: Doing Recipes for Woods.
+java.lang.NullPointerException
+	at net.minecraft.item.Item.getDamage(Item.java:1319)
+	at gregapi.util.ST.meta_(ST.java:112)
+	at gregapi.util.ST.validMeta_(ST.java:183)
+	at gregapi.util.CR.shaped(CR.java:289)
+	at gregapi.util.CR.shaped(CR.java:266)
+	at gregapi.util.CR.shaped(CR.java:285)
+	at gregtech.loaders.c.Loader_Recipes_Woods.run(Loader_Recipes_Woods.java:95)
+	at gregtech.GT_Mod.onModPostInit2(GT_Mod.java:319)
+	at gregapi.api.Abstract_Mod.onModPostInit(Abstract_Mod.java:225)
+	at gregtech.GT_Mod.onPostLoad(GT_Mod.java:565)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:742)
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:311)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:597)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+GT_Mod: Doing Vanilla related Recipes.
+GT_Mod: Doing Vanilla related OreDict Recipes.
+GT_Mod: Doing Temporary Recipes for GregTech things that are not quite fleshed out yet.
+GT_Mod: Doing GT Recipes for Chemical Stuff.
+GT_Mod: Doing GT Recipes for Crops Stuff.
+GT_Mod: Doing GT Recipes for Potion Stuff.
+GT_Mod: Doing GT Recipes for Food Stuff.
+GT_Mod: Doing GT Recipes for Ore Processing.
+java.lang.NullPointerException
+	at net.minecraft.item.Item.getDamage(Item.java:1319)
+	at gregapi.util.ST.meta_(ST.java:112)
+	at gregapi.util.ST.validMeta_(ST.java:183)
+	at gregapi.util.CR.shapeless(CR.java:445)
+	at gregapi.util.CR.shapeless(CR.java:439)
+	at gregtech.loaders.c.Loader_Recipes_Ores.run(Loader_Recipes_Ores.java:261)
+	at gregtech.GT_Mod.onModPostInit2(GT_Mod.java:319)
+	at gregapi.api.Abstract_Mod.onModPostInit(Abstract_Mod.java:225)
+	at gregtech.GT_Mod.onPostLoad(GT_Mod.java:565)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:742)
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:311)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:597)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+GT_Mod: Doing GT Recipes for Alloy Mixing.
+GT_Mod: Doing GT Recipes for other things.
