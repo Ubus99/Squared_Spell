@@ -13,6 +13,6 @@ public final class ItemHandler {
     public static final void init() {
         //automate or outsource item declaration
         ItemBuffer.add(new Item().setUnlocalizedName("testItem").setCreativeTab(CreativeTabs.tabMisc));
-        ItemBuffer.forEach(item -> GameRegistry.registerItem(item, item.getUnlocalizedName()));
+        ItemBuffer.forEach(Item -> GameRegistry.registerItem(Item, Item.getUnlocalizedName()));
     }
 }

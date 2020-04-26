@@ -12,7 +12,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Main.MODID, name = Main.MODNAME, version = Main.VERSION)
 public class Main {
 
-    public static final String MODID = "Spell2";
+    public static final String MODID = "spell2";
     public static final String MODNAME = "Spell^2";
     public static final String VERSION = "0.0.1";
 
