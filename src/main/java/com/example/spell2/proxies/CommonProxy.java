@@ -1,6 +1,6 @@
 package com.example.spell2.proxies;
 
-import com.example.spell2.assets.items.ItemHandler;
+import com.example.spell2.assets.ItemHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;

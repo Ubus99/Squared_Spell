@@ -1,18 +1,18 @@
-package com.example.spell2.assets.items;
+package com.example.spell2.assets;
 
+import com.example.spell2.assets.items.Scroll;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 import java.util.LinkedList;
 
 public final class ItemHandler {
 
-    public static LinkedList<Item> ItemBuffer;
+    public static LinkedList<Item> ItemBuffer = new LinkedList<>();
 
     public static final void init() {
         //automate or outsource item declaration
-        ItemBuffer.add(new Item().setUnlocalizedName("testItem").setCreativeTab(CreativeTabs.tabMisc));
+        ItemBuffer.add(new Scroll());
         ItemBuffer.forEach(Item -> GameRegistry.registerItem(Item, Item.getUnlocalizedName()));
     }
 }
