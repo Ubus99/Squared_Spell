@@ -1,2 +1,3 @@
 < en_US.lang - English localization file for spell² >
-item.testItem.name=TestItem
+item.TestItem.name=TestItem
+tile.TestBlock.name=TestBlock

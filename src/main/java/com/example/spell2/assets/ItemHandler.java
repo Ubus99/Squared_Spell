@@ -10,9 +10,11 @@ public final class ItemHandler {
 
     public static LinkedList<Item> ItemBuffer = new LinkedList<>();
 
+    public static Item Scroll = new Scroll();
+
     public static final void init() {
         //automate or outsource item declaration
-        ItemBuffer.add(new Scroll());
+        ItemBuffer.add(Scroll);
         ItemBuffer.forEach(Item -> GameRegistry.registerItem(Item, Item.getUnlocalizedName()));
     }
 }
