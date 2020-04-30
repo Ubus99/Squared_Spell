@@ -1,7 +1,7 @@
 package com.example.spell2.proxies;
 
 import com.example.spell2.Main;
-import com.example.spell2.RecipeHandler;
+import com.example.spell2.assets.recipes.RecipeHandler;
 import com.example.spell2.assets.BlockHandler;
 import com.example.spell2.assets.ItemHandler;
 import com.example.spell2.networking.PacketHandler;

@@ -1,4 +1,4 @@
-package com.example.spell2;
+package com.example.spell2.assets.recipes;
 
 import com.example.spell2.assets.ItemHandler;
 import cpw.mods.fml.common.registry.GameRegistry;

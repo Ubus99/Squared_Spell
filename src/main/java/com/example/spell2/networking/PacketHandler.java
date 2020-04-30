@@ -7,7 +7,7 @@ public class PacketHandler {
 
 	private static SimpleNetworkWrapper NetworkWrapper;
 
-	public static void init(SimpleNetworkWrapper NetworkWrapperIn) {
+	public static final void init(SimpleNetworkWrapper NetworkWrapperIn) {
 		NetworkWrapper = NetworkWrapperIn;
 		NetworkWrapper.registerMessage(MessageHandler.class, Message.class, 0, Side.CLIENT);
 	}
