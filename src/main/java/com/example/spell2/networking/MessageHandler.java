@@ -6,11 +6,11 @@ import cpw.mods.fml.common.network.simpleimpl.MessageContext;
 
 public class MessageHandler implements IMessageHandler {
 
-    public MessageHandler() {
-    }
+	public MessageHandler() {
+	}
 
-    @Override
-    public IMessage onMessage(IMessage message, MessageContext ctx) {
-        return null;
-    }
+	@Override
+	public IMessage onMessage(IMessage message, MessageContext ctx) {
+		return null;
+	}
 }

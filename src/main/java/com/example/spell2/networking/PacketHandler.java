@@ -5,10 +5,10 @@ import cpw.mods.fml.relauncher.Side;
 
 public class PacketHandler {
 
-    private static SimpleNetworkWrapper NetworkWrapper;
+	private static SimpleNetworkWrapper NetworkWrapper;
 
-    public static void init(SimpleNetworkWrapper NetworkWrapperIn) {
-        NetworkWrapper = NetworkWrapperIn;
-        NetworkWrapper.registerMessage(MessageHandler.class, Message.class, 0, Side.CLIENT);
-    }
+	public static void init(SimpleNetworkWrapper NetworkWrapperIn) {
+		NetworkWrapper = NetworkWrapperIn;
+		NetworkWrapper.registerMessage(MessageHandler.class, Message.class, 0, Side.CLIENT);
+	}
 }

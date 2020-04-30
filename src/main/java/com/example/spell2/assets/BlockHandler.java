@@ -8,11 +8,11 @@ import java.util.LinkedList;
 
 public class BlockHandler {
 
-    public static final LinkedList<Spell2Block> BlockBuffer = new LinkedList<>();
+	public static final LinkedList<Spell2Block> BlockBuffer = new LinkedList<>();
 
-    public static final void init() {
-        //automate or outsource item declaration
-        BlockBuffer.add(new Spell2Block(Material.iron));
-        BlockBuffer.forEach(Block -> GameRegistry.registerBlock(Block, Block.getUnlocalizedName()));
-    }
+	public static final void init() {
+		//automate or outsource item declaration
+		BlockBuffer.add(new Spell2Block(Material.iron));
+		BlockBuffer.forEach(Block -> GameRegistry.registerBlock(Block, Block.getUnlocalizedName()));
+	}
 }

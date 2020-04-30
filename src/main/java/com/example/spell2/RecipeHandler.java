@@ -7,16 +7,16 @@ import net.minecraft.item.ItemStack;
 
 public class RecipeHandler {
 
-    public static final void init() {
-        loadShapedRecipes();
-        loadShapelessRecipes();
-    }
+	public static final void init() {
+		loadShapedRecipes();
+		loadShapelessRecipes();
+	}
 
-    private static void loadShapedRecipes() {
-        GameRegistry.addRecipe(new ItemStack(ItemHandler.Scroll), "S", "L", "S", 'S', Items.stick, 'L', Items.leather);
-    }
+	private static void loadShapedRecipes() {
+		GameRegistry.addRecipe(new ItemStack(ItemHandler.Scroll), "S", "L", "S", 'S', Items.stick, 'L', Items.leather);
+	}
 
-    private static void loadShapelessRecipes() {
+	private static void loadShapelessRecipes() {
 
-    }
+	}
 }

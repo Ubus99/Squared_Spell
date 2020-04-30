@@ -5,17 +5,16 @@ import io.netty.buffer.ByteBuf;
 
 public class Message implements IMessage {
 
-    public Message() {
+	public Message() {
+	}
 
-    }
+	@Override
+	public void fromBytes(ByteBuf buf) {
 
-    @Override
-    public void fromBytes(ByteBuf buf) {
+	}
 
-    }
+	@Override
+	public void toBytes(ByteBuf buf) {
 
-    @Override
-    public void toBytes(ByteBuf buf) {
-
-    }
+	}
 }
