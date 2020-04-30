@@ -5,6 +5,10 @@ import io.netty.buffer.ByteBuf;
 
 public class Message implements IMessage {
 
+    public Message() {
+
+    }
+
     @Override
     public void fromBytes(ByteBuf buf) {
 
