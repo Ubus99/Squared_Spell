@@ -14,8 +14,8 @@ public class Spell2Block extends Block {
 
 	public Spell2Block(Material material) {
 		super(material);
-		this.setBlockName(Name);
-		this.setBlockTextureName(Texture);
+		this.setUnlocalizedName(Name);
+		this.setTextureName(Texture);
 		this.setCreativeTab(Tab);
 		this.setLightLevel(0.2f);
 		this.setHarvestLevel("axe", 0);
