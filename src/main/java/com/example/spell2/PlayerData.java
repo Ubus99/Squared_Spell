@@ -1,5 +1,7 @@
 package com.example.spell2;
 
+import com.example.spell2.network.PacketHandler;
+import com.example.spell2.network.playerData.ManaPacket;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -13,7 +15,7 @@ public class PlayerData implements IExtendedEntityProperties {
 
 	private static final String identifier = Main.MODID + "PlayerData"; // identifies data from this mod inside the entity
 	private final EntityPlayer player;
-	@SuppressWarnings("FieldCanBeLocal")
+
 	private final int maxMana = 100;
 	private int mana;
 
@@ -43,6 +45,13 @@ public class PlayerData implements IExtendedEntityProperties {
 	public void setMana(int mana) {
 		if (mana < maxMana && mana > 0) {
 			this.mana = mana;
+			syncMana();
+		}
+	}
+
+	private void syncMana() {
+		if (this.isServerSide()) {
+			PacketHandler.sendTo(new ManaPacket(player, mana), (EntityPlayerMP) player);
 		}
 	}
 	// HANDLER ---------------------------------------------------------------------------------------------------------

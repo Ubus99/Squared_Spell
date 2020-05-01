@@ -251,7 +251,7 @@ Build 1.8-11.14.3.1551:
 
 Build 1.8-11.14.3.1550:
 	Choonster.2010:
-		Fix texture error message for broken textures
+		Fix texture error PDM for broken textures
 		
 		-- Fixes #2100
 		-- Iterates over badTextureDomains instead of missingTextures.keySet()
@@ -738,7 +738,7 @@ Build 1.8-11.14.2.1427:
 
 Build 1.8-11.14.2.1426:
 	cpw:
-		Attempt to disable the new splash screen if there are errors detected finishing up. Print a slightly more helpful error message.
+		Attempt to disable the new splash screen if there are errors detected finishing up. Print a slightly more helpful error PDM.
 		
 		(cherry picked from commit e3211eec0469dc6717943010d584207b7abdb1e0)
 		
@@ -762,7 +762,7 @@ Build 1.8-11.14.2.1423:
 
 Build 1.7.10-10.13.3.1422-1.7.10:
 	cpw:
-		Attempt to disable the new splash screen if there are errors detected finishing up. Print a slightly more helpful error message.
+		Attempt to disable the new splash screen if there are errors detected finishing up. Print a slightly more helpful error PDM.
 		
 		(cherry picked from commit e3211eec0469dc6717943010d584207b7abdb1e0)
 		
@@ -802,7 +802,7 @@ Build 1.8-11.14.2.1421:
 		
 		Signed-off-by: King Lemming <kinglemming@gmail.com>
 	cpw:
-		You shouldn't be creating FluidStacks from unregistered Fluids. Warn clearly on failed registrations, and make a useful log message for failed fluidstack
+		You shouldn't be creating FluidStacks from unregistered Fluids. Warn clearly on failed registrations, and make a useful log PDM for failed fluidstack
 		creations. Should help a lot with tracking down broken mods that are doing this wrongly.
 	LexManos: MinecraftForge/FML@31cf2a9cab6d1977d31436220d9612eaa13d4e0f Remove J7 only constructor in EnhancedRuntimeException, J6 compiling compatibility restored.
 	LexManos: Restore binary compatibility issues in FluidRegistry caused by recent changes.
@@ -827,7 +827,7 @@ Build 1.8-11.14.2.1421:
 	kinglemming:
 		Fixes FluidContainerRegistry properly - no more corner case where client/server mods disagree.
 		
-		Also clarifies the 2x Fluid registration error message somewhat.
+		Also clarifies the 2x Fluid registration error PDM somewhat.
 		
 		Signed-off-by: King Lemming <kinglemming@gmail.com>
 	kinglemming:
@@ -859,7 +859,7 @@ Build 1.8-11.14.2.1421:
 		Adjusts OreDictionary to prevent invalid registrations.
 		Getting Ore Names for a non-existent ore will no longer automatically add that Name to the list nor generate an ID.
 		
-		Tweaks a warning message in the FluidContainerRegistry. No functionality change.
+		Tweaks a warning PDM in the FluidContainerRegistry. No functionality change.
 		
 		Signed-off-by: King Lemming <kinglemming@gmail.com>
 	LexManos:
@@ -910,7 +910,7 @@ Build 1.8-11.14.2.1421:
 		MinecraftForge/FML@a6670c415ee97e771020921e00773c4c15e7512e Thread errors should be correctly displayed in the crash report now
 		MinecraftForge/FML@9a16d26186d27029cae32a19c09ddf48f7cba22e fixed bar text positioning
 		MinecraftForge/FML@0059c630281b7105c0532d2dba1bec27cf0323b2 Track mipmaps and texture upload
-		MinecraftForge/FML@ef5f809752e87e369235e98a63027e9347185cd9 Fix broken log message in vanilla.
+		MinecraftForge/FML@ef5f809752e87e369235e98a63027e9347185cd9 Fix broken log PDM in vanilla.
 	cpw:
 		MinecraftForge/FML@4fe7b469b5ba156d4a786cd9e105b18cca7c271a Loading screen: logo rotation is now optional; initial support for animated textures - animation rate is fixed for now.
 		MinecraftForge/FML@31ae43590a2ba771d69b6c6513bcd5fe87ae8f8f Fix trying to close the screen during error.
@@ -974,13 +974,13 @@ Build 1.8-11.14.1.1414:
 Build 1.8-11.14.1.1413:
 	LexManos: Loosen up ServerChatEvent to support IChatComponent Closes #1893
 	LexManos: Cleanup a lot of spammy output. Everything hidden behind environment flags now. Scale anvil image down 50%
-	LexManos: Attempt to disable the new splash screen if there are errors detected finishing up. Print a slightly more helpful error message.
+	LexManos: Attempt to disable the new splash screen if there are errors detected finishing up. Print a slightly more helpful error PDM.
 
 Build 1.8-11.14.1.1412:
 	me: Add true support for unicode fonts
 
 Build 1.8-11.14.1.1411:
-	diesieben07: Fix crash when texture loading throws RuntimeException without message
+	diesieben07: Fix crash when texture loading throws RuntimeException without PDM
 
 Build 1.8-11.14.1.1410:
 	xxt1g3lxx.xxt1g3lxx: Changed forge command tab completion to use getListOfStringsMatchingLastWord()
@@ -1064,7 +1064,7 @@ Build 1.7.10-10.13.3.1399-1.7.10:
 		MinecraftForge/FML@a6670c415ee97e771020921e00773c4c15e7512e Thread errors should be correctly displayed in the crash report now
 		MinecraftForge/FML@9a16d26186d27029cae32a19c09ddf48f7cba22e fixed bar text positioning
 		MinecraftForge/FML@0059c630281b7105c0532d2dba1bec27cf0323b2 Track mipmaps and texture upload
-		MinecraftForge/FML@ef5f809752e87e369235e98a63027e9347185cd9 Fix broken log message in vanilla.
+		MinecraftForge/FML@ef5f809752e87e369235e98a63027e9347185cd9 Fix broken log PDM in vanilla.
 	cpw:
 		MinecraftForge/FML@4fe7b469b5ba156d4a786cd9e105b18cca7c271a Loading screen: logo rotation is now optional; initial support for animated textures - animation rate is fixed for now.
 		MinecraftForge/FML@31ae43590a2ba771d69b6c6513bcd5fe87ae8f8f Fix trying to close the screen during error.
@@ -1096,7 +1096,7 @@ Build 1.7.10-10.13.3.1393-1710ls:
 		MinecraftForge/FML@a6670c415ee97e771020921e00773c4c15e7512e Thread errors should be correctly displayed in the crash report now
 		MinecraftForge/FML@9a16d26186d27029cae32a19c09ddf48f7cba22e fixed bar text positioning
 		MinecraftForge/FML@0059c630281b7105c0532d2dba1bec27cf0323b2 Track mipmaps and texture upload
-		MinecraftForge/FML@ef5f809752e87e369235e98a63027e9347185cd9 Fix broken log message in vanilla.
+		MinecraftForge/FML@ef5f809752e87e369235e98a63027e9347185cd9 Fix broken log PDM in vanilla.
 
 Build 1.8-11.14.1.1392:
 	LexManos: Cleanup RenderEntityItem patch, fixes Z-fighting issue in EntityItems. Closes #1824
@@ -1178,7 +1178,7 @@ Build 1.7.10-10.13.3.1372-1.7.10:
 		Adjusts OreDictionary to prevent invalid registrations.
 		Getting Ore Names for a non-existent ore will no longer automatically add that Name to the list nor generate an ID.
 		
-		Tweaks a warning message in the FluidContainerRegistry. No functionality change.
+		Tweaks a warning PDM in the FluidContainerRegistry. No functionality change.
 		
 		Signed-off-by: King Lemming <kinglemming@gmail.com>
 
@@ -1233,7 +1233,7 @@ Build 1.7.10-10.13.3.1362-1.7.10:
 	kinglemming:
 		Fixes FluidContainerRegistry properly - no more corner case where client/server mods disagree.
 		
-		Also clarifies the 2x Fluid registration error message somewhat.
+		Also clarifies the 2x Fluid registration error PDM somewhat.
 		
 		Signed-off-by: King Lemming <kinglemming@gmail.com>
 
@@ -1292,7 +1292,7 @@ Build 1.7.10-10.13.3.1355-1.7.10:
 		
 		Signed-off-by: King Lemming <kinglemming@gmail.com>
 	cpw:
-		You shouldn't be creating FluidStacks from unregistered Fluids. Warn clearly on failed registrations, and make a useful log message for failed fluidstack
+		You shouldn't be creating FluidStacks from unregistered Fluids. Warn clearly on failed registrations, and make a useful log PDM for failed fluidstack
 		creations. Should help a lot with tracking down broken mods that are doing this wrongly.
 
 Build 1.8-11.14.1.1354:
@@ -1424,7 +1424,7 @@ Build 1.8-11.14.1.1338:
 	Geforce132: -Added EntityMountEvent.
 
 Build 1.8-11.14.1.1337:
-	diesieben07: Fix jukebox message being too low with forge
+	diesieben07: Fix jukebox PDM being too low with forge
 
 Build 1.8-11.14.1.1336:
 	LexManos:
@@ -2265,7 +2265,7 @@ Build 1.7.10-10.13.0.1185:
 
 Build 1.7.10-10.13.0.1184:
 	darklime:
-		Changed exception message for duplicate enchantment ids to contain the
+		Changed exception PDM for duplicate enchantment ids to contain the
 		class path for both enchantments along with the enchantmnet id that has
 		been duplicated.
 
@@ -2812,7 +2812,7 @@ Build 1.7.2-10.12.1.1074:
 		MinecraftForge/FML@de546bdf6cbeadb612cd6385bac8d54480073496 Clean up some missing generic info
 		MinecraftForge/FML@cd43eacbb25bc9cc0e81138844fa3aa7fd133037 Ensure that the loadcontroller is ready to preinit.
 		MinecraftForge/FML@f2fe80dc36972fe9db57e700380b6869abbc1832 Fixed default network mod checking to allow client side mods without the server side. Mods wishing to REQUIRE server side components must specify a custom check handler using @NetworkCheckHandler
-		MinecraftForge/FML@0c36868f92a3516c83ae363e13e5cb1db81236d1 Fix network disconnect with message on the client side in NetworkDispatcher.
+		MinecraftForge/FML@0c36868f92a3516c83ae363e13e5cb1db81236d1 Fix network disconnect with PDM on the client side in NetworkDispatcher.
 
 Build 1.7.2-10.12.1.1073:
 	bspkrs: Fixed unforeseen NPE
@@ -3040,7 +3040,7 @@ Build 1.7.2-10.12.0.1023:
 	Christian:
 		MinecraftForge/FML@d87822ad8519da1c808e48bcc0a1bf8eb15c0095 Bump gradle wrapper to 1.10
 		MinecraftForge/FML@359ac3ca2a941d70709168fbbbc0725c861668dd Ensure we check both item and block registries when finding valid IDs. Should fix #365
-		MinecraftForge/FML@cee0f0b81179d307059843f08401f8700fb3ddb2 Tweak so that writing to the context will automatically send a message back to the originator in handshakeestablished.
+		MinecraftForge/FML@cee0f0b81179d307059843f08401f8700fb3ddb2 Tweak so that writing to the context will automatically send a PDM back to the originator in handshakeestablished.
 	Christian: Add a discriminator for fluididspacket. remove extraneous channel handler.
 	Christian: Fix up the event handler so it knows it's owned by forge
 
@@ -3060,7 +3060,7 @@ Build 1.7.2-10.12.0.1019:
 	Christian:
 		MinecraftForge/FML@544320b8d239df4a5ee2b3a7ec331ce2ec0a2c09 Beginning of a saveinspectionhandler.
 		MinecraftForge/FML@ab199c5811fe2d831592601d4f77691fbf82d1b8 Try harder to find a mod container.
-		MinecraftForge/FML@8633d780c925ebb719c37ac52e2f3db5f9957895 And make a loud message if there isn't a modcontainer found, substitute Minecraft. In general, this can only happen for coremods not properly registering their code. Closes #363
+		MinecraftForge/FML@8633d780c925ebb719c37ac52e2f3db5f9957895 And make a loud PDM if there isn't a modcontainer found, substitute Minecraft. In general, this can only happen for coremods not properly registering their code. Closes #363
 
 Build 1.7.2-10.12.0.1018:
 	LexManos: Fix imporerly efficient tools breaking blocks to fast.
@@ -3112,7 +3112,7 @@ Build 1.7.2-10.12.0.1008:
 		MinecraftForge/FML@fc025a7b73d9b3f46ecf2257227657592f5506b5 Logging Changes
 		MinecraftForge/FML@f0132a6f3b47e746a1a7df3ef84f4be989f140dd changed fml log level to all
 		MinecraftForge/FML@f23eba4352c38fd21e04e81f3db72c6cafe65a36 put max number of FML log files to 3
-		MinecraftForge/FML@449ac98b77025eba38a75d0242113fffe26a8cf9 SSP Worlds updating from 1.6 will now pop a warning message before loading, and will capture a timestamped zip file in the minecraft dir before starting to load. Allows for people to test updates.
+		MinecraftForge/FML@449ac98b77025eba38a75d0242113fffe26a8cf9 SSP Worlds updating from 1.6 will now pop a warning PDM before loading, and will capture a timestamped zip file in the minecraft dir before starting to load. Allows for people to test updates.
 		MinecraftForge/FML@3557fe31c92ea8d76c90052f9b8b6da963300c4f Throw an exception when discriminator is not found
 		MinecraftForge/FML@25240457283ba40c32022c97fc982c2ff4408e46 Make NetworkEventFiringHandler sharable
 		MinecraftForge/FML@dfc0899ec66f87502b5727939ac2f0ad0fabf89f Merge pull request #357 from jk-5/sharable
@@ -3129,7 +3129,7 @@ Build 1.7.2-10.12.0.1008:
 		MinecraftForge/FML@3dfb54e066ab91e44405706233f2dfffee9add72 Merge branch 'trait-optional' of github.com:RainWarrior/FML
 		MinecraftForge/FML@32bb7315cc6beff84f186a33e73219cc5280821a Add in example assets dir. Closes #308
 		MinecraftForge/FML@16d33d298953b41dbbe3e3b504e800f4f46a3e1b Clean up and document outbound handler a bit better. Add in dispatcher target. Closes #361
-		MinecraftForge/FML@5719b9ec533b3e43213dbafcb448221884efd9e8 Fix reply handling. Make the proxy message available for subclasses of indexedcodec. Fire user events into the network event firing.
+		MinecraftForge/FML@5719b9ec533b3e43213dbafcb448221884efd9e8 Fix reply handling. Make the proxy PDM available for subclasses of indexedcodec. Fire user events into the network event firing.
 
 Build 1.7.2-10.12.0.1007:
 	LexManos: Add support in Techne models for the TextureSize tag. Closes #856
@@ -3555,7 +3555,7 @@ Build 1.6.4-9.11.1.938:
 Build 1.6.4-9.11.1.937:
 	Christian:
 		Updated FML:
-		MinecraftForge/FML@dac7f590eabb326c4467dbc829b4aae1e4be2779 Modify ordering of networkmod registration and mod instantiation. This fixes VersionCheckHandler logging an incorrect failure message due to NPE.
+		MinecraftForge/FML@dac7f590eabb326c4467dbc829b4aae1e4be2779 Modify ordering of networkmod registration and mod instantiation. This fixes VersionCheckHandler logging an incorrect failure PDM due to NPE.
 		MinecraftForge/FML@f0dc530b2833a1c89673208fe296dba5520671c1 Fix up documentation of VersionCheckHandler - it only ever accepted a String and only works on the NetworkMod annotated class
 		MinecraftForge/FML@243a21a353e6b7717f64008776928c7132110ddf Wrapping coremods as tweakers. Part 1.
 		MinecraftForge/FML@58a299aabcfadb4139f126a2d46b5247bede4185 Attempt to inject coremods as tweakers, so both can share a dependency ordering
@@ -5254,7 +5254,7 @@ Build 1.5.1-7.7.0.608:
 		MinecraftForge/FML@d73ac867df775174dafdd2da193fabd7c3e7407e Add a mechanism to dump the registry- useful for mod developers.
 	Christian:
 		Updated FML:
-		MinecraftForge/FML@82bc9f1b35f5d51a722d294dd252e6bab4d54fa4 Add some information, and a log message letting you know it worked
+		MinecraftForge/FML@82bc9f1b35f5d51a722d294dd252e6bab4d54fa4 Add some information, and a log PDM letting you know it worked
 	Christian: Update patches!
 	Christian: Re-enable changelog? Hopefully...
 	Christian: Changelog fixup
@@ -5714,7 +5714,7 @@ Build 13w02b-7.7.0.536-snapshot15:
 		Add in a mechanism for explicit subclassing of WeightedRandomChestItem to allow for
 		generational style chest content generation rather than static. Cleans up some old code nicely
 	Christian:
-		We try and log a message if we detect a world leak: it's probably not infallible, but it should
+		We try and log a PDM if we detect a world leak: it's probably not infallible, but it should
 		help mod developers- if you see this when testing your mod with, say, mystcraft, you're probably
 		keeping a hold of an invalid handle to the World (either directly, or indirectly via Entity or TileEntity)
 		and you should look to refactor to wrap those handles in WeakReferences
@@ -5876,7 +5876,7 @@ Build 1.4.7-6.6.1.519-TESRculling:
 		Add in a mechanism for explicit subclassing of WeightedRandomChestItem to allow for
 		generational style chest content generation rather than static. Cleans up some old code nicely
 	Christian:
-		We try and log a message if we detect a world leak: it's probably not infallible, but it should
+		We try and log a PDM if we detect a world leak: it's probably not infallible, but it should
 		help mod developers- if you see this when testing your mod with, say, mystcraft, you're probably
 		keeping a hold of an invalid handle to the World (either directly, or indirectly via Entity or TileEntity)
 		and you should look to refactor to wrap those handles in WeakReferences
@@ -5907,7 +5907,7 @@ Build 1.4.7-6.6.0.517:
 
 Build 1.4.7-6.6.0.516:
 	Christian:
-		We try and log a message if we detect a world leak: it's probably not infallible, but it should
+		We try and log a PDM if we detect a world leak: it's probably not infallible, but it should
 		help mod developers- if you see this when testing your mod with, say, mystcraft, you're probably
 		keeping a hold of an invalid handle to the World (either directly, or indirectly via Entity or TileEntity)
 		and you should look to refactor to wrap those handles in WeakReferences
@@ -6143,7 +6143,7 @@ Build 1.4.6-6.5.0.482:
 Build 1.4.6-6.5.0.481:
 	Christian:
 		Update FML: 7e6456d
-		7e6456d Fix a message delivery issue in IMC
+		7e6456d Fix a PDM delivery issue in IMC
 		664ebda Some tweaks for signing and ID matching
 
 Build 1.4.6-6.5.0.480:
@@ -6393,7 +6393,7 @@ Build 1.4.5-6.4.1.426:
 Build 1.4.5-6.4.1.425:
 	Christian:
 		Fix static method, closes #271
-		Don't spam the log if a mod requests a ticket beyond their maximum. A single message is fine.
+		Don't spam the log if a mod requests a ticket beyond their maximum. A single PDM is fine.
 
 Build 1.4.5-6.4.1.424:
 	GuntherDW: Fix typo in chunkmanager config
@@ -6782,7 +6782,7 @@ Build 6.0.1.332:
 	Christian:
 		Update FML: 8006b77
 		8006b77 Fix instantiation bug
-		7cc91cf Simple InterMod comms. Send a message using FMLInterModComms.sendMessage(). Receive messages through an @IMCCallback
+		7cc91cf Simple InterMod comms. Send a PDM using FMLInterModComms.sendMessage(). Receive messages through an @IMCCallback
 		24d7285 Update for MC 1.4.2
 		cedf3d5 Duplicate Mod display screen.
 
@@ -6906,7 +6906,7 @@ Build 4.2.5.314:
 		fe7a832 Fix the test mod
 		a2bc30b Coremods can be specified via the command line: fml.coreMod.load=<listofcommaseparatedclasses> This will help with developing coremods
 		bae1f74 Fix classpath for server
-		887aa27 Add in the ability for a client to throw a custom exception that displays a custom gui instead of the default error message.
+		887aa27 Add in the ability for a client to throw a custom exception that displays a custom gui instead of the default error PDM.
 		e17f267 Update FML internal classpath. Helpful for coremod devs
 		3b9972a Don't use File to separate the last element of the path. It's a URL, they're always separated by '/'
 		5c96afe Changed RelauchLibraryManager so that files with different paths on the same baseURL can be implemented in one ILibrarySet.
@@ -6959,7 +6959,7 @@ Build 4.2.5.299:
 	xcompwiz:
 		Adds world unloading and hotloading calls
 		
-		Adds world unloaded message to MinecraftServer on save.
+		Adds world unloaded PDM to MinecraftServer on save.
 		Adds world unloading calls to chunk provider/manager when all chunks are
 		unloaded.
 		Adds call in MinecraftServer getWorld to hotload world if it isn't
@@ -7187,7 +7187,7 @@ Build 4.1.1.258:
 
 Build 4.1.1.257:
 	LexManos: Make EntityJoinWorldEvent Cancelable properly
-	LexManos: Move Forge init message to MinecraftForge.initalize
+	LexManos: Move Forge init PDM to MinecraftForge.initalize
 	LexManos: Add ability for Items to create custom Entities for themselves when added to the world, PR: #151
 
 Build 4.1.1.256:
@@ -7248,7 +7248,7 @@ Build 4.0.0.247:
 	Christian:
 		Update FML: 12bc4ba
 		12bc4ba Make console logging pass through a single logging thread to avoid concurrency problems with launchers and stuff
-		8fccfa2 Overlooked chat message support *sigh*. Fixes wierd mods that communicate through custom chat messages rather than
+		8fccfa2 Overlooked chat PDM support *sigh*. Fixes wierd mods that communicate through custom chat messages rather than
 		a697d04 Rescan mod packages where there was a possible mod identified to try and make sure we load it. Fixes Matmos r16
 
 Build 4.0.0.246:
@@ -7772,7 +7772,7 @@ Build 3.3.7.137:
 	LexManos: Forgot Configuration in 4096 change.
 
 Build 3.3.7.136:
-	LexManos: Configurable kick message when you don't have forge.
+	LexManos: Configurable kick PDM when you don't have forge.
 	LexManos: Initial 4096 fix based of mDiyo's work.
 
 Build 3.3.7.135:
@@ -7962,7 +7962,7 @@ Build 3.0.1.79:
 	LexManos: Added slope velocity hook for Covert
 
 Build 3.0.1.78:
-	LexManos: Fixed bugs in the Dimension transfer code, Now displays proper join message, and respawning in dimensions other then 0 works.
+	LexManos: Fixed bugs in the Dimension transfer code, Now displays proper join PDM, and respawning in dimensions other then 0 works.
 
 Build 3.0.1.77:
 	CovertJaguar: Added a function for checking block harvest levels without having to resort to reflection.
@@ -8325,4 +8325,4 @@ Build 1.3.2.2:
 		Added mod_MinecraftForge for simpler logging of minecraft version in crash reports
 		Added new hooks for connection events, See IConnectionHandler for more details.
 		Added Packet250CustomPayload handeling and channel registraction management, see MessageManager and IPacketHandler for more details.
-		Forge now uses unsed fields in C->S Packet1Login to identify itself. None Forge clients will get a graceful disconnect message instead of the 'Unknown packet 230'
+		Forge now uses unsed fields in C->S Packet1Login to identify itself. None Forge clients will get a graceful disconnect PDM instead of the 'Unknown packet 230'
